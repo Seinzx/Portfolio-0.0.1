@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+    <div class="hero-container">
+        
+        <!-- Left Side Text Content -->
+        <div class="hero-text">
+            <h1 class="greeting">Hello<span class="dot">.</span></h1>
+            <div class="intro-line">
+                <span class="accent-dash"></span>
+                <h2>I'm <span class="name">Joshua Reyes Felix</span></h2>
+            </div>
+            <p class="subtitle">IT & Hardware Specialist</p>
+            
+
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    View Portfolio
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Side Image Block -->
+        <div class="hero-image">
+            <div class="polaroid-wrapper">
+                <!-- The hanging tape effect -->
+                <div class="tape"></div>
+        
+                <!-- The main photograph frame -->
+                <div class="polaroid-frame">
+                    <div class="photo-container">
+                        <img src="img/me.png" alt="Joshua Reyes Felix">
+                    </div>
+
+                     <!-- Photo Caption -->
+                    <div class="polaroid-caption"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="container">
+        <h2>About Me & Skills</h2>
+        <p class="about-text">I am a passionate technology professional dedicated to creating effective solutions, i also dedicate myself in creating creative arts of work! Here are some technologies I work with:</p>
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                Frontend Development
+                <span class="skill-subtext"> HTML5 / CSS / JS </span>
+            </div>
+
+            <div class="skill-card">
+                Backend & Systems
+                <span class="skill-subtext"> Apache / SQL / Firebase / PHP </span>
+            </div>
+
+            <div class="skill-card">
+                2D Game Development & UI/UX
+                <span class="skill-subtext"> Unity Engine / C# Scripting / Interactive Game Menus / Layout Usability </span>
+            </div>
+
+             <div class="skill-card">
+                 Asset Creation & Sound Design
+                <span class="skill-subtext"> Pixel Art / Sprite Animation Sheets / Custom Music Production / Audio Track Scrubbing </span>
+            </div>
+
+            <div class="skill-card">
+                Digital Production & Graphics
+                <span class="skill-subtext">Adobe Photoshop / Graphic Asset Layouts / Video Post-Production / Creative Brand Themes</span>
+            </div>
+            
+            <div class="skill-card">
+                 Systems & Hardware Architecture
+                <span class="skill-subtext"> Custom PC Assembly / Component Diagnostics/ Hardware Upgrades & Troubleshooting </span>
+            </div>
+
+            <div class="skill-card">
+                IT Operations 
+                <span class="skill-subtext"> Diagnostics / CLI Command Shell Execution / Local Network Cabling & Crimping</span>
+            </div>
+
+        </div>
+    </section>
+
+   <!-- Featured Projects Section with Images -->
+    <section id="projects" class="bg-alt">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <a href="https://arckei.github.io/Website-CyberGuard/" target="_blank" class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="img/cyberguard.png" alt="CyberGuard Preview" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <span class="project-icon">💻</span>
+                            <h4>CyberGuard: Cybersecurity Learning Platform</h4>
+                        </div>
+                        <p>A gamified learning platform curated to tackle specific cybersecurity threats and topics.</p>
+                        <div class="project-tags">
+                            <span class="tech-tag">Gamification</span>
+                            <span class="tech-tag">Web Security</span>
+                            <span class="tech-tag">Learning Platform</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="img/techsort.png" alt="TechSort Preview" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <span class="project-icon">📖</span>
+                            <h4>TechSort: Inventory & PoS System</h4>
+                        </div>
+                        <p>A custom Point of Sale application designed for local tech shops. Features live stock tracking, secure transaction logs, automated low-inventory alerts, and database tracking for sales history reporting. </p>
+                        <div class="project-tags">
+                            <span class="tech-tag">Backend Architecture</span>
+                            <span class="tech-tag">SQL Database</span>
+                            <span class="tech-tag">CRUD Logic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="img/elyzium.png" alt="Elyzium Preview" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <span class="project-icon">🎮</span>
+                            <h4>Elyzium: Decendia</h4>
+                        </div>
+                        <p>A hooded nameless specter roams the remains of heaven and descends deep to hell to find answers.</p>
+                        <div class="project-tags">
+                            <span class="tech-tag">Pixel</span>
+                            <span class="tech-tag">RPG</span>
+                            <span class="tech-tag">Dungeon-Crawler</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container text-center">
+        <div class="contact-card">
+            <h2>Contacts</h2>
+            <p>I am currently open to internship opportunities and freelance technical jobs. If you like my work, let's talk!</p>
+            
+            <div class="contact-links">
+                <!-- Replace with your actual links -->
+                <a href="https://github.com/Seinzx" target="_blank" class="contact-icon-btn">GitHub</a>
+                <a href="https://Facebook.com/Seinzxy" target="_blank" class="contact-icon-btn">Facebook</a>
+                <a href="https://discord.gg/SeKaq8yf78" target="_blank" class="contact-icon-btn">Discord</a>
+                <a href="mailto:your.Xeenon357@gmail.com" class="btn contact-main-btn">Email Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Joshua Reyes Felix. Built with pure HTML & CSS.</p>
+    </footer>
+
+
+</body>
+</html>
